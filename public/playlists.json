@@ -1,0 +1,106 @@
+[
+    {
+      "slug": "kunal-java",
+      "creator": "Kunal Kushwaha",
+      "topic": "DSA in Java",
+      "language": "java",
+      "thumbnail": "https://img.youtube.com/vi/rZ41y93P2Qo/hqdefault.jpg",
+      "videos": [
+        { "title": "Best Data Structures & Algorithms (DSA) Course - Clear Any FAANG Interview!", "url": "https://youtu.be/rZ41y93P2Qo?si=c7-2fIZutVGIkY72" },
+        { "title": "Java vs C++ for Data Structures & Algorithms", "url": "https://youtu.be/Nckx9qMy_kw?si=Eypp03iS7DN4ct8k" },
+        { "title" : "How I Cleared My Google Interviews - Use LeetCode Effectively!", "url": "https://youtu.be/waGfV-IoOt8?si=pp-PgYWyEOjt8h15" },
+        { "title" : "Complete Git and GitHub Tutorial", "url": "https://youtu.be/apGV9Kg7ics?si=GQR4aq8DMVzQoUlt" },
+        { "title" : "Introduction to Programming - Types of Languages, Memory Management", "url": "https://youtu.be/wn49bJOYAZM?si=8I1sVA-xPV-lmiGf" },
+        { "title" : "Flow of Program - Flowcharts & Pseudocode", "url": "https://youtu.be/lhELGQAV4gg?si=PPhukcmD8ExUvOYM" }
+      ]
+    },
+    {
+      "slug": "bhavani-cpp",
+      "creator": "Bhavani Shankar",
+      "topic": "C++ Basics",
+      "language": "cpp",
+      "thumbnail":"https://img.youtube.com/vi/4D9x-ZvSVnw/hqdefault.jpg",
+      "videos": [
+        { "title": "Why C++", "url": "https://youtu.be/4D9x-ZvSVnw?si=U2oQMXpMR-x0K-xR" },
+        { "title": "C++ Syntax", "url": "https://youtu.be/dewbCtuNv-s?si=jBMqDnKa92Iu_hiP" }
+      ]
+    },
+    {
+      "slug": "apna-js",
+      "creator": "Apna College",
+      "topic": "JavaScript for Beginners",
+      "language": "javascript",
+      "thumbnail": "https://img.youtube.com/vi/ajdRvxDWH4w/hqdefault.jpg",
+      "videos": [
+        { "title": "JS Basics", "url": "https://www.youtube.com/embed/qwer3344" },
+        { "title": "Functions in JS", "url": "https://www.youtube.com/embed/zxcv5566" }
+      ]
+    },
+    {
+      "slug": "codewithharry-python",
+      "creator": "CodeWithHarry",
+      "topic": "Python Tutorial in Hindi",
+      "language": "python",
+      "thumbnail": "https://img.youtube.com/vi/7wnove7K-ZQ/hqdefault.jpg",
+      "videos": [
+        { "title": "Python Intro", "url": "https://www.youtube.com/embed/asdf0001" },
+        { "title": "Variables", "url": "https://www.youtube.com/embed/asdf0002" }
+      ]
+    },
+    {
+      "slug": "loveybabbar-dsa",
+      "creator": "Love Babbar",
+      "topic": "450 DSA Series",
+      "language": "cpp",
+      "thumbnail": "https://img.youtube.com/vi/WQoB2z67hvY/hqdefault.jpg",
+      "videos": [
+        { "title": "Arrays", "url": "https://www.youtube.com/embed/hijk2345" },
+        { "title": "Strings", "url": "https://www.youtube.com/embed/lmnq3456" }
+      ]
+    },
+    {
+      "slug": "telusko-java",
+      "creator": "Telusko",
+      "topic": "Java for Beginners",
+      "language": "java",
+      "thumbnail": "https://img.youtube.com/vi/bm0OyhwFDuY/hqdefault.jpg",
+      "videos": [
+        { "title": "Intro to Java", "url": "https://www.youtube.com/embed/wxyz1234" },
+        { "title": "Data Types", "url": "https://www.youtube.com/embed/qrst6789" }
+      ]
+    },
+    {
+      "slug": "csdojo-python",
+      "creator": "CS Dojo",
+      "topic": "Python for Logic Building",
+      "language": "python",
+      "thumbnail": "https://img.youtube.com/vi/Z1Yd7upQsXY/hqdefault.jpg",
+      "videos": [
+        { "title": "Variables in Python", "url": "https://www.youtube.com/embed/pqrs4321" },
+        { "title": "If Else", "url": "https://www.youtube.com/embed/lkjh7890" }
+      ]
+    },
+    {
+      "slug": "freecode-js",
+      "creator": "freeCodeCamp",
+      "topic": "JavaScript Full Course",
+      "language": "javascript",
+      "thumbnail": "https://img.youtube.com/vi/PkZNo7MFNFg/hqdefault.jpg",
+      "videos": [
+        { "title": "Intro to JS", "url": "https://www.youtube.com/embed/nmjk5555" },
+        { "title": "DOM Manipulation", "url": "https://www.youtube.com/embed/qazx6677" }
+      ]
+    },
+    {
+      "slug": "nareshit-java",
+      "creator": "Naresh i Technologies",
+      "topic": "Core Java",
+      "language": "java",
+      "thumbnail": "https://img.youtube.com/vi/GvBTu50qSDQ/hqdefault.jpg",
+      "videos": [
+        { "title": "Java Overview", "url": "https://www.youtube.com/embed/zxas4321" },
+        { "title": "Control Statements", "url": "https://www.youtube.com/embed/oiuy5432" }
+      ]
+    }
+  ]
+  

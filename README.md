@@ -1,40 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# CodeAlong
 
-## Getting Started
+**CodeAlong** is an interactive learning platform where you can watch coding tutorials and code alongside them — all in the browser. It's designed to help beginners build confidence by practicing in real time with visual and guided learning.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- 🎥 Watch tutorials while coding
+- 💻 JavaScript in-browser compiler
+- 🔁 RapidAPI Judge0 integration (multi-language WIP)
+- 🧠 AI-powered Compiler Simulator when rate limits are hit
+- 🔐 API key manager with multiple save options
+- 🔗 Manual progress tracking for each video
+- ✅ Mark as Completed / Clear Completion control
+- 🖥 Optimized for desktop devices
+
+---
+
+## 🧱 Tech Stack
+
+- **Frontend**: Next.js, Tailwind CSS
+- **Compiler**: In-browser JS + Judge0 API (C++, Java, Python planned)
+- **Storage**: LocalStorage for key and progress tracking
+
+---
+
+## 🛠 Getting Started
 
 ```bash
+git clone https://github.com/santhosh-2504/codealong.git
+cd codealong
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000` to start developing.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🔑 API Key Setup
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+1. Visit [Judge0 on RapidAPI](https://rapidapi.com/judge0-official/api/judge0-ce)
+2. Get your API key
+3. Go to `/keys` in the app
+4. Save the key using one of the four options:
+   - Session only
+   - 1 week
+   - 1 month
+   - Forever
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧪 Upcoming Features
 
-To learn more about Next.js, take a look at the following resources:
+- 📊 User dashboards
+- 📘 Learning guides for each topic
+- 📱 Mobile optimization (optional mode)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 License
 
-## Deploy on Vercel
+CodeAlong is **Free and Open Source Software** licensed under the **GNU General Public License v3.0 (GPLv3)**. This means all forks, contributions, and usage must remain open-source.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+See `LICENSE.md` for more details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! Please:
+
+- Create an issue for major feature ideas
+- Follow the project code style and conventions
+- Be kind and collaborative 😄
+
+---
+
+## 🙌 Credits
+
+Built with ❤️ by Santhosh and contributors.
+
+*"Learning to code shouldn't be passive. CodeAlong lets you **watch, learn, and code** all at once."*
