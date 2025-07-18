@@ -34,7 +34,7 @@ def fibonacci(n):
 print("Fibonacci of 10:", fibonacci(10))`
   },
   cpp: {
-    starterCode: `// C++ code (Note: C++ execution not implemented yet)
+    starterCode: `// C++ code
 #include <iostream>
 #include <vector>
 
@@ -52,7 +52,7 @@ int main() {
 }`
   },
   java: {
-    starterCode: `// Java code (Note: Java execution not implemented yet)
+    starterCode: `// Java code
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
@@ -64,6 +64,25 @@ public class Main {
         }
         System.out.println();
     }
+}`
+  },
+  c: {
+    starterCode: `// C code
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\\n");
+    
+    int numbers[] = {1, 2, 3, 4, 5};
+    int size = sizeof(numbers) / sizeof(numbers[0]);
+    
+    printf("Numbers: ");
+    for(int i = 0; i < size; i++) {
+        printf("%d ", numbers[i]);
+    }
+    printf("\\n");
+    
+    return 0;
 }`
   }
 };

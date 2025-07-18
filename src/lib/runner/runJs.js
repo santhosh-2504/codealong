@@ -1,18 +1,3 @@
-// export function runJs(code) {
-//     try {
-//       const consoleLog = [];
-//       const originalLog = console.log;
-//       console.log = (...args) => consoleLog.push(args.join(" "));
-  
-//       eval(code);
-  
-//       console.log = originalLog;
-//       return consoleLog.join("\n") || "Code executed with no output";
-//     } catch (err) {
-//       return "Runtime Error: " + err.message;
-//     }
-//   }
-  
 export function runJs(code) {
   try {
     const consoleOutput = [];
@@ -53,7 +38,7 @@ export function runJs(code) {
     } else if (result !== undefined) {
       return typeof result === 'object' ? JSON.stringify(result, null, 2) : String(result);
     } else {
-      return '✅ Code executed successfully (no output)';
+      return 'SUCCESS: Code executed successfully (no output)';
     }
     
   } catch (err) {

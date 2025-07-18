@@ -553,17 +553,6 @@
       "videos": [
         { "title": "Learn JavaScript | Full Course for Beginners", "url": "https://youtu.be/PkZNo7MFNFg?si=4hI4lAGuAmE6LVVc" }
       ]
-    },
-    {
-      "slug": "nareshit-java",
-      "creator": "Naresh i Technologies",
-      "topic": "Core Java",
-      "language": "java",
-      "thumbnail": "https://img.youtube.com/vi/GvBTu50qSDQ/hqdefault.jpg",
-      "videos": [
-        { "title": "Java Overview", "url": "https://www.youtube.com/embed/zxas4321" },
-        { "title": "Control Statements", "url": "https://www.youtube.com/embed/oiuy5432" }
-      ]
     }
   ]
   

@@ -7,17 +7,26 @@ export default function CodeEditor({ code, onChange, language }) {
     javascript: "javascript",
     python: "python",
     cpp: "cpp",
-    java: "java"
+    java: "java",
+    c: "c"
   };
 
   return (
-    <div className="flex-1">
+    <div className="h-full w-full">
       <Editor
-        height="300px"
+        height="100%"
+        width="100%"
         language={map[language]}
         value={code}
         onChange={onChange}
         theme="vs-dark"
+        options={{
+          minimap: { enabled: false },
+          scrollBeyondLastLine: false,
+          fontSize: 14,
+          lineNumbers: 'on',
+          automaticLayout: true
+        }}
       />
     </div>
   );
