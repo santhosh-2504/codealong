@@ -9,6 +9,18 @@
 const nextConfig = {
   reactStrictMode: true,
   
+  // Configure external image patterns
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'img.youtube.com',
+        port: '',
+        pathname: '/**',
+      },
+    ],
+  },
+  
   // Custom rewrites to handle stackframe.js requests
   async rewrites() {
     return [
