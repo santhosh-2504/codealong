@@ -158,7 +158,7 @@ export default function PlaylistWatchPage() {
                   <VideoPlayer videoUrl={currentVideo.url} />
                 </div>
                 
-                {/* Video Info */}
+                {/* Video Info
                 <div className="mt-3">
                   <h2 className="text-lg font-semibold text-white truncate">
                     {currentVideo.title}
@@ -166,11 +166,11 @@ export default function PlaylistWatchPage() {
                   <p className="text-sm text-gray-300">
                     Video {videoIndex + 1} of {playlist.videos.length} • {playlist.title}
                   </p>
-                </div>
+                </div> */}
               </div>
 
               {/* Controls + Playlist */}
-              <div className="h-1/3 p-4 flex flex-col bg-slate-800/50 backdrop-blur-xl border-t border-slate-700/50">
+              <div className="h-1/3  flex flex-col bg-slate-800/50 backdrop-blur-xl border-t border-slate-700/50">
                 {/* Progress Bar */}
                 <div className="mb-3">
                   <div className="flex justify-between text-sm text-gray-300 mb-1">
