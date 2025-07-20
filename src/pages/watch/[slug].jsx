@@ -148,7 +148,7 @@ export default function PlaylistWatchPage() {
     <>
       <Navbar />
       <ErrorBoundary>
-        <div className="flex flex-col md:flex-row h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pt-16">
+        <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pt-16">
           <div className="flex flex-col md:flex-row h-[calc(100vh-4rem)]">
             {/* Left: Video + Playlist */}
             <div className="w-full md:w-1/2 h-1/2 md:h-full flex flex-col">
