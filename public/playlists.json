@@ -878,6 +878,30 @@
       "videos": [
         { "title": "Learn JavaScript | Full Course for Beginners", "url": "https://youtu.be/PkZNo7MFNFg?si=4hI4lAGuAmE6LVVc" }
       ]
+    },
+    {
+      "slug" : "javascript-nterview-questions-rscoder",
+      "creator" : "RoadsideCoder",
+      "topic" : "JavaScript Interview Questions",
+      "language" : "javascript",
+      "thumbnail": "https://img.youtube.com/vi/oUWRxJ19gfE/hqdefault.jpg",
+      "videos": [
+        { "title": "Javascript Interview Questions ( Var, Let and Const ) - Hoisting, Scoping, Shadowing and more", "url": "https://www.youtube.com/watch?v=oUWRxJ19gfE" },
+        { "title": "Javascript Interview Questions ( map, filter and reduce ) - Polyfills and Output Based Questions", "url": "https://www.youtube.com/watch?v=dGq0gi0wv64" },
+        { "title": "Javascript Interview Questions ( Functions ) - Hoisting, Scope, Callback, Arrow Functions etc", "url": "https://www.youtube.com/watch?v=btwFJT_xzdg" },
+        { "title": "Complete Frontend Interview Course - Machine Coding, React JS, Performance, JavaScript and More!", "url": "https://www.youtube.com/watch?v=4fGwWLHRVlk" },
+        { "title": "Javascript Interview Questions ( Closures ) - Lexical Scope, Output based Questions, Polyfills", "url": "https://www.youtube.com/watch?v=sZjlEKbaykc" },
+        { "title": "Javascript Interview Questions ( Currying ) - Output based Questions, Partial Application and more", "url": "https://www.youtube.com/watch?v=k5TC9i5HonI" },
+        { "title": "Javascript Interview Questions ( Objects ) - Output Based, Destructuring, Object Referencing, etc", "url": "https://www.youtube.com/watch?v=XnFIX3c7xoI" },
+        { "title": "Javascript Interview Questions ( 'this' Keyword ) - Output Based, Scope, Implicit Binding, etc", "url": "https://www.youtube.com/watch?v=rv7Q11KWmKU" },
+        { "title": "Javascript Interview Questions ( Call, Bind and Apply ) - Polyfills, Output Based, Explicit Binding", "url": "https://www.youtube.com/watch?v=VkmUOktYDAU" },
+        { "title": "Watch this before joining my Frontend Interview Prep Course 👀", "url": "https://www.youtube.com/watch?v=8SgWqKosMIM" },
+        { "title": "Javascript Interview Questions ( Promises ) - Polyfills, Callbacks, Async/await, Output Based, etc", "url": "https://www.youtube.com/watch?v=HaJdoFp2OEc" },
+        { "title": "Javascript Interview Questions ( Debouncing and Throttling ) - Implementation, Examples etc", "url": "https://www.youtube.com/watch?v=kCfTEoeQvQw" },
+        { "title": "Javascript Interview Questions ( Event Propagation ) - Bubbling, Capturing, and Deligation", "url": "https://www.youtube.com/watch?v=rS_4YfbEo2U" },
+        { "title": "Javascript Interview Questions ( 12 Polyfills ) - Promise(), Memoize(), Bind(), Reduce(), Map() etc🔥", "url": "https://www.youtube.com/watch?v=Th3rZjfKKhI" },
+        { "title": "How I Reset my Brain to Learn Javascript 🧠🔥", "url": "https://www.youtube.com/watch?v=v8d5oo7Xs1Y" }
+      ]
     }
   ]
   
