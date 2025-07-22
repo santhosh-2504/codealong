@@ -17,18 +17,21 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-900/95 backdrop-blur-xl border-b border-slate-700/50 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
+          {/* Premium Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center group">
               <div className="flex items-center gap-1">
-                <span className="text-lg md:text-xl font-black text-white group-hover:text-gray-200 transition-colors duration-200">
+                <span className="text-lg md:text-xl font-black text-white group-hover:text-gray-100 transition-colors duration-200 drop-shadow-lg">
                   CODE
                 </span>
                 <div className="relative">
-                  <div className="bg-red-600 px-1.5 md:px-2 py-0.5 md:py-1 rounded transform -skew-x-6 group-hover:bg-red-700 transition-colors duration-200">
-                    <span className="text-white font-black flex items-center gap-0.5 text-xs md:text-sm">
+                  {/* Subtle glow effect */}
+                  <div className="absolute inset-0 bg-red-500 blur-md opacity-25 rounded transform -skew-x-6 scale-105 group-hover:opacity-35 transition-opacity duration-300"></div>
+                  
+                  <div className="relative bg-gradient-to-r from-red-600 via-red-500 to-red-600 px-1.5 md:px-2 py-0.5 md:py-1 rounded transform -skew-x-6 group-hover:shadow-lg group-hover:shadow-red-500/40 transition-all duration-300 shadow-md">
+                    <span className="text-white font-black flex items-center gap-0.5 text-xs md:text-sm drop-shadow-md">
                       AL
-                      <div className="w-0 h-0 border-l-[6px] md:border-l-[8px] border-l-white border-t-[5px] md:border-t-[7px] border-t-transparent border-b-[5px] md:border-b-[7px] border-b-transparent"></div>
+                      <div className="w-0 h-0 border-l-[6px] md:border-l-[8px] border-l-white border-t-[5px] md:border-t-[7px] border-t-transparent border-b-[5px] md:border-b-[7px] border-b-transparent drop-shadow-sm"></div>
                       NG
                     </span>
                   </div>

@@ -74,12 +74,15 @@ export default function Home() {
             {/* Logo-inspired Title */}
             <div className="mb-6">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-black tracking-wider flex items-center justify-center gap-2">
-                <span className="text-white">CODE</span>
+                <span className="text-white drop-shadow-lg">CODE</span>
                 <div className="relative">
-                  <div className="bg-red-600 px-3 md:px-4 py-1.5 md:py-2 rounded transform -skew-x-6">
-                    <span className="text-white font-black flex items-center gap-1">
+                  {/* Subtle glow effect */}
+                  <div className="absolute inset-0 bg-red-500 blur-md opacity-25 rounded transform -skew-x-6 scale-105"></div>
+                  
+                  <div className="relative bg-gradient-to-r from-red-600 via-red-500 to-red-600 px-3 md:px-4 py-1.5 md:py-2 rounded transform -skew-x-6 shadow-md">
+                    <span className="text-white font-black flex items-center gap-1 drop-shadow-md">
                       AL
-                      <div className="w-0 h-0 border-l-[12px] md:border-l-[16px] border-l-white border-t-[10px] md:border-t-[14px] border-t-transparent border-b-[10px] md:border-b-[14px] border-b-transparent"></div>
+                      <div className="w-0 h-0 border-l-[12px] md:border-l-[16px] border-l-white border-t-[10px] md:border-t-[14px] border-t-transparent border-b-[10px] md:border-b-[14px] border-b-transparent drop-shadow-sm"></div>
                       NG
                     </span>
                   </div>
