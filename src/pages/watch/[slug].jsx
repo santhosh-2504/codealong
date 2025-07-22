@@ -11,10 +11,13 @@ import ResizablePanel from '@/components/layout/ResizablePanel';
 import Navbar from '@/components/layout/Navbar';
 import { languageMap } from '@/utils/languageMap';
 import { getCompletedVideos, markVideoComplete, clearVideoComplete } from '@/utils/storage';
+import Head from 'next/head';
 
 export default function PlaylistWatchPage() {
   const router = useRouter();
-  const { slug } = router.query;
+  const { slug , topic} = router.query;
+  console.log('Current slug:', slug);
+  console.log('Current title:', topic);
 
   const [playlist, setPlaylist] = useState(null);
   const [videoIndex, setVideoIndex] = useState(0);
@@ -146,6 +149,9 @@ export default function PlaylistWatchPage() {
 
   return (
     <>
+    <Head>
+      <title>{topic} - Code Along</title>
+    </Head>
       <Navbar />
       <ErrorBoundary>
         <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pt-16">

@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import playlists from "../../public/playlists.json";
 import Image from "next/image";
 import Navbar from "../components/layout/Navbar";
+import Head from "next/head";
 
 export default function Home() {
   const [link, setLink] = useState("");
@@ -55,12 +56,16 @@ export default function Home() {
     router.push(`/watch?video=${encodeURIComponent(link)}`);
   };
 
-  const handlePlaylistClick = (slug) => {
-    router.push(`/watch/${slug}`);
+  const handlePlaylistClick = (slug, topic) => {
+    router.push(`/watch/${slug}?topic=${encodeURIComponent(topic)}`);
   };
 
   return (
     <>
+    <Head>
+      <title>Code Along - Learn Coding with YouTube</title>
+      <meta name="description" content="Transform your learning experience. Paste any YouTube tutorial and code along with a powerful multi-language editor in real-time." />
+    </Head>
       <Navbar />
       <div className="min-h-screen flex flex-col bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pt-20 md:pt-16">
         {/* Top Half - Hero + Input */}
@@ -172,7 +177,7 @@ export default function Home() {
               {playlists.slice(0, 8).map((playlist, index) => (
                 <div
                   key={playlist.slug}
-                  onClick={() => handlePlaylistClick(playlist.slug)}
+                  onClick={() => handlePlaylistClick(playlist.slug, playlist.topic)}
                   className="group cursor-pointer relative overflow-hidden rounded-xl transition-all duration-300 transform hover:scale-105"
                   style={{ animationDelay: `${index * 100}ms` }}
                 >

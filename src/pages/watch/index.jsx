@@ -8,6 +8,7 @@ import ErrorBoundary from '@/components/ErrorBoundary';
 import ResizablePanel from '@/components/layout/ResizablePanel';
 import Navbar from '@/components/layout/Navbar';
 import { languageMap } from '@/utils/languageMap';
+import Head from 'next/head';
 
 export default function WatchPage() {
   const router = useRouter();
@@ -101,6 +102,9 @@ export default function WatchPage() {
 
   return (
     <>
+      <Head>
+        <title>Watch - Code Along</title>
+      </Head>
       <Navbar />
       <ErrorBoundary>
         <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pt-16">
