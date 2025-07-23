@@ -7,6 +7,7 @@ import {
   selectKey,
   getSelectedKey,
 } from "@/lib/keyManager";
+import Head from "next/head";
 
 export default function KeysPage() {
   const [keys, setKeys] = useState([]);
@@ -49,6 +50,9 @@ export default function KeysPage() {
 
   return (
     <>
+    <Head>
+      <title>API Key Management - Code Along</title>
+    </Head>
       <Navbar />
       <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pt-16">
         <div className="max-w-5xl mx-auto py-12 px-6">

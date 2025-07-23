@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import Image from 'next/image';
 import Navbar from '@/components/layout/Navbar';
 import playlists from '../../../public/playlists.json';
+import Head from 'next/head';
 
 export default function PlaylistsPage() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -29,8 +30,8 @@ export default function PlaylistsPage() {
     return langs.sort();
   }, []);
 
-  const handlePlaylistClick = (slug) => {
-    router.push(`/watch/${slug}`);
+  const handlePlaylistClick = (slug, topic) => {
+    router.push(`/watch/${slug}?topic=${topic}`);
   };
 
   const handleClearFilters = () => {
@@ -40,6 +41,9 @@ export default function PlaylistsPage() {
 
   return (
     <>
+    <Head>
+      <title>Learning Playlists - Code Along</title>
+    </Head>
       <Navbar />
       <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pt-16">
         <div className="max-w-7xl mx-auto py-12 px-6">
@@ -150,7 +154,7 @@ export default function PlaylistsPage() {
               {filteredPlaylists.map((playlist, index) => (
                 <div
                   key={playlist.slug}
-                  onClick={() => handlePlaylistClick(playlist.slug)}
+                  onClick={() => handlePlaylistClick(playlist.slug , playlist.topic)}
                   className="group cursor-pointer relative overflow-hidden rounded-xl transition-all duration-300 transform hover:scale-105"
                   style={{ animationDelay: `${index * 50}ms` }}
                 >
