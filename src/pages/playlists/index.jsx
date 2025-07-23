@@ -180,7 +180,7 @@ export default function PlaylistsPage() {
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <div className="absolute bottom-4 left-4 right-4">
                           <div className="flex items-center justify-center w-12 h-12 bg-red-600 rounded-full transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                            <div className="w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-b-[8px] border-b-white ml-1"></div>
+                            <div className="w-0 h-0 border-l-[8px] border-l-white border-t-[6px] border-t-transparent border-b-[6px] border-b-transparent ml-1"></div>
                           </div>
                         </div>
                       </div>
